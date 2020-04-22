@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  width: 50px;
+  height: 60px;
+}
+.home {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+.hideDate {
+  display: none;
+}
+
+.btndiv {
+  margin: 40px;
+  font-weight: bold;
+  width: 100px;
+  height: 500px;
+}
+
+.btn-container {
+  display: flex;
+  width: 150px;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.btn {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+  height: 80px;
+  font-family: Sans-Serif;
+  margin-right: 10px;
+}
+
+.btn1 {
+  background-color: white;
+  border: 3px solid #4caf50;
+  color: #4caf50;
+  text-transform: uppercase;
+  height: inherit;
+  width: inherit;
+  transition: background-color 0.5s ease, color 1s ease;
+  cursor: pointer;
+  box-shadow: 5px 6px rgba(77, 77, 77, 0.5);
+}
+
+.btn1:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.btn1:active {
+  border: 10px dotted;
+}
